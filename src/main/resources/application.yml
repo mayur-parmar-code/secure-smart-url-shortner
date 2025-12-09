@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Secure Smart URL Shortener
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: admin@123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
